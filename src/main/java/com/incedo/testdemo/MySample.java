@@ -21,7 +21,7 @@ public class MySample extends SpringBootServletInitializer implements Serializab
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder springApplicationBuilder)
 	{
-		System.out.println("Hello JENKINS Latest one");
+		System.out.println("Hello JENKINS testing Latest one");
 		return springApplicationBuilder.sources(MySample.class);
 	}
 	public static void main(String[] args)
