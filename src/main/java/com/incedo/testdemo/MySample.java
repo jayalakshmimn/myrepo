@@ -27,7 +27,7 @@ public class MySample extends SpringBootServletInitializer implements Serializab
 	public static void main(String[] args)
 	{
 		SpringApplication.run(MySample.class, args);
-		logger.info("Its Aaaaaaaaaaaashis here");
+		logger.info("Its Aaaaaaaaaaaashis here git testing");
 		logger.info("Server started at " + Calendar.getInstance().getTime());
 		
 	}
